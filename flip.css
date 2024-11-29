@@ -1,0 +1,933 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: none;
+}
+body{
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #eae9e9;
+    color: #212121;
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+}
+.navbar{
+    background-color: #2874f0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    height: 57px;
+
+}
+.nav div{
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+
+.flipkartLogo{
+   width: 150px;
+   
+}
+
+.flipkartLogo img{
+    width: 135px;
+    margin-left: 0;
+}
+
+.searchBar{
+    width: 560px;
+}
+
+.searchBar input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius:2px 0 0 2px;
+    font-size: 1rem;
+    
+}
+
+
+
+.magnyfying i {
+    background-color: white;
+    width: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid white;
+    color: #2874f0;
+    border-radius:0 2px 2px 0;
+}
+
+.account select{
+    width: 74px;
+    margin-left: 115px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600 ;
+}
+
+.sign{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.seller{
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600 ; 
+}
+
+.seller i{
+   font-size: 18px;
+   margin-right: 5px;
+}
+
+.more select{
+    width: 60px;
+    margin-left: 30px;
+    background: none;
+    border:none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600 ;
+}
+
+.cart{
+    margin-left: 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600 ;
+}
+.cartLogo{
+    margin: 8px;
+}
+
+/* style herto section */
+
+.hero-section{
+    background-color: #fff;
+    height: 150px;
+    width: 95rem;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hero-section .divno1{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno1 .grocery{
+    height: 85px;
+    width: 103px;
+    background: url(grocry.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.divno1 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* hero section div n0:- 2 */
+.hero-section .divno2{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno2 .Mobiles{
+    height: 85px;
+    width: 103px;
+    background: url(mob.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno2 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* herosection div no:- 3 */
+.hero-section .divno3{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno3 .Faishon{
+    height: 85px;
+    width: 65px;
+    background: url(img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno3 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-4 */
+.hero-section .divno4{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno4 .Electronics{
+    height: 85px;
+    width: 103px;
+    background: url(lap.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno4 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-5*/
+
+.hero-section .divno5{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno5 .Furnituires{
+    height: 85px;
+    width: 103px;
+    background: url(furn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno5 .para{
+    height: 25px;
+    width: 119px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-6*/
+.hero-section .divno6{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno6 .Appliances{
+    height: 85px;
+    width: 103px;
+    background: url(app.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno6 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-7*/
+
+.hero-section .divno7{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno7 .Flight{
+    height: 85px;
+    width: 130px;
+    background: url(flight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno7 .para{
+    height: 25px;
+    width: 96px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-8*/
+
+.hero-section .divno8{
+    height: 150px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno8 .Beauty{
+    height: 85px;
+    width: 103px;
+    background: url(toy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno8 .para{
+    height: 25px;
+    width: 128px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+/* divno:-9*/
+.hero-section .divno9{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divno9 .twoWheelers{
+    height: 85px;
+    width: 103px;
+    background: url(mot.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+.divno9 .para{
+    height: 25px;
+    width: 70px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  20px; 
+}
+
+.hero-section div{
+    margin-left:15px ;
+    margin-right: 15px;
+}
+
+/* slider section:------ */
+.slider{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+.btn-container{
+    margin: auto;
+    width: 10px;
+}
+.slider_img img{
+    width: 98.5%;
+    padding: 0 10px ;
+}
+.slider_img{
+    display: flex;
+}
+
+.btn{
+    padding: 30px 12px;
+    background-color: white;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-right{
+    position: relative;
+    left: -40px;
+}
+.btn-left{
+    position: relative;
+}
+
+.elect-items{
+    /* border: 2px solid red; */
+    background-color: #fff;
+    width: 97.1%;
+    height: 375px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.elect_para p {
+    /* border: 2px solid mediumseagreen; */
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.elect_itemdiv{
+    /* border: 2px solid blue; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.elect_itemdiv .box1,
+.box2,.box3,.box4,.box5,
+.box6,.box7,.box28{
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    height:250px ;
+    width: 13%;
+    margin-top: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box1 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box1 .box1_img{
+    height: 75%;
+    background: url(buds.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box1 .box1_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .box1_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* box2 */
+
+.box2 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box2 .box2_img{
+    height: 75%;
+    background: url(cam.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box2 .box2_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 .box2_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .box3 */
+.box3 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box3 .box3_img{
+    height: 75%;
+    background: url(speak.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box3 .box3_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .box3_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box4 */
+.box4 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box4 .box4_img{
+    height: 75%;
+    background: url(proj.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box4 .box4_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 .box4_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box5 */
+.box5 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box5 .box5_img{
+    height: 75%;
+    background: url(print.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box5 .box5_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 .box5_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box6 */
+.box6 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box6 .box6_img{
+    height: 75%;
+    background: url(watch.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box6 .box6_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box6 .box6_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* box7 */
+.box7 div{
+    border: 2px solid black;
+    width: 160px;
+}
+
+.box7 .box7_img{
+    height: 75%;
+    background: url(moni.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.box7 .box7_para{
+    height: 25px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 .box7_shop{
+    width: 100px;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* all div boirder remove */
+.box7 div , .box6 div, .box5 div,.box4 div,
+.box3 div,.box2 div,.box1 div{
+    border: none;
+}
+
+/* beauty food toys and more section */
+.beauty .box1_img{
+    height: 75%;
+    background: url(cyc.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+.beauty .box2_img{
+    height: 75%;
+    background: url(toy.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+.beauty .box3_img{
+    height: 75%;
+    background: url(gym.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+.beauty .box4_img{
+    height: 75%;
+    background: url(car.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+.beauty .box5_img{
+    height: 75%;
+    background: url(met.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+.beauty .box6_img{
+    height: 75%;
+    background: url(mus.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+.beauty .box7_img{
+    height: 75%;
+    background: url(puz.webp);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: contain;
+}
+
+/* bank offer div */
+
+.bank_off{
+    /* border: 2px solid green; */
+    width: 97%;
+    height: 250px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.bank_off div{
+    /* border: 2px solid brown; */
+    width: 480px;
+
+}
+
+.bank_off .off1{
+    background: url(off1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bank_off .off2{
+    background: url(off2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bank_off .off3{
+    background: url(off3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* footer style */
+
+.foot-panel1{
+    /* border: 2px solid red; */
+    height: 260px;
+    margin-top: 15px;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.foot-panel1 ul{
+    /* border: 2px solid pink; */
+    height: 300px;
+    width: 200px;
+    color: white; 
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.foot-panel1 ul p{
+    color:#878787;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.foot-panel1 ul a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content:start;
+    font-size: 0.78rem;
+    margin: 2px;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.foot-panel1 ul a:hover{
+    text-decoration: underline;
+}
+
+
+.comppolicy{
+    /* border: 2px solid red; */
+    width: 800px;
+    display:flex;
+}
+.comppolicy ul{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 250px;
+    height: 300px;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.comppolicy .para{
+    color:#fff;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 0;
+    
+}
+
+.pannellogo .headp{
+    margin-top: 15px;
+}
+
+.comppolicy .logo{
+    margin-left: px ;
+    font-size: 20px;
+}
+.comppolicy .logo i{
+    margin: 10px;
+}
+
+.comppolicy ul :hover{
+    cursor: default;
+}
+
+.comppolicy .logo  i:hover{
+    cursor: pointer;
+}
+
+/* foot pannel2 starting */
+
+.foot-panel2{
+    border-top: 2px solid #454d5e ;
+    background-color:rgb(36, 35, 35) ;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-panel2 div{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.foot-panel2 div i,p{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+.foot-panel2 div p{
+    margin-left: 10px;
+}
+
+.copyright .copy{
+    margin-left: 5px;
+}
+
+.foot-panel2 .box{
+    width: 400px;
+    color: red;
+}
+.foot-panel2 .box {
+    background: url(pay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot-panel2 .div0{
+    width: 140px;
+}
+
+.foot-panel2 i{
+    color: rgb(223, 193, 42);
+}
+
+.copyright .ar{
+    color: #fff;
+}
